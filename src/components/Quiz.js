@@ -11,7 +11,7 @@ const Quiz = () => {
     if (quizState.questions.length > 0) {
       return;
     }
-    console.log("on initialize");
+    
 
     fetch(apiUrl)
       .then((res) => res.json())
